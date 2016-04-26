@@ -63,10 +63,6 @@ RESPONSIVE FIXES
         padding-top: 0;
     }
 
-    header .intro-section {
-        padding-top: 10%;
-    }
-
     .features .features-left,
     .features .features-right {
         margin-top: 0;
@@ -107,10 +103,6 @@ RESPONSIVE FIXES
     .navbar-inverse .navbar-nav>li {
         display: inline-block;
         margin-bottom: 0;
-    }
-
-    header .intro-section {
-        padding-top: 9%;
     }
 
     .features .features-left,
@@ -154,10 +146,6 @@ RESPONSIVE FIXES
 
     header .only-logo .navbar {
         padding: 10px;
-    }
-
-    header .intro-section {
-        padding-top: 2%;
     }
 
     header .intro-section .intro {

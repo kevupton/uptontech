@@ -2,14 +2,14 @@
 =========================================
 COLOR : ORANGE
 
-MAIN COLOR CODE: #ea8825
+MAIN COLOR CODE: #de5f3a #ea8825
 
-DEEP COLOR CODE: #AC5330
+DEEP COLOR CODE: #c65534 #AC5330
 =========================================
 ----------------------------------------- */
 
 .solid-color {
-    background: rgba(234, 136, 37, 1);
+    background: #181818;
 }
 
 .standard-button {
@@ -24,9 +24,9 @@ DEEP COLOR CODE: #AC5330
     background: #AC5330;
 }
 
-.btn-primary:focus, 
-.btn-primary:active, 
-.btn-primary.active, 
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     background: #AC5330;
     border-color: inherit;

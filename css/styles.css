@@ -297,6 +297,14 @@ header .full-screen {
           box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
 }
 
+.sticky-navigation .main-navigation li a.orange-item {
+    font-weight: bold;
+    color: #ea8825;
+}
+.sticky-navigation .main-navigation li a.orange-item:hover {
+    color: #de5f3a;
+}
+
 .sticky-navigation .navbar-header img {
   max-height: 30px;
   -webkit-backface-visibility: hidden;
@@ -316,9 +324,19 @@ header .full-screen {
   color: #c8c8c8;
 }
 
+header .profile-pic {
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border-radius:20px;
+
+    border:2px solid white;
+
+}
+
 header .only-logo .navbar {
     background: none;
     padding: 60px;
+    margin-bottom:0px;
 }
 
 header .only-logo .navbar .navbar-header {
@@ -329,7 +347,6 @@ header .only-logo .navbar .navbar-header {
 
 header .intro-section {
     margin: auto;
-    padding-top: 15%;
 }
 
 header .intro-section .intro {
@@ -412,6 +429,10 @@ header .intro-section .buttons {
 }
 
 
+.features .feature-details p {
+    color: white;
+}
+
 /*---------------------------------------
    SECTION:  BRIEF                 
 -----------------------------------------*/
@@ -425,7 +446,7 @@ header .intro-section .buttons {
     margin-bottom: 20px;
 }
 
-.app-brief .phone-image {
+.app-brief .phone-image, .app-brief .logo-image {
     max-width: 350px;
     margin: auto;
     margin-bottom: 50px;
@@ -433,6 +454,10 @@ header .intro-section .buttons {
 
 .app-brief .phone-image img {
     width: 100%;
+}
+
+.app-brief .logo-image img {
+    margin:30px;
 }
 
 .app-brief .left-align {
@@ -448,6 +473,10 @@ header .intro-section .buttons {
 
 .app-brief .left-align .feature-list {
     margin-top: 40px;
+}
+
+.app-brief .left-align .feature-list.skill-set li {
+    margin-bottom:5px;
 }
 
 .app-brief .left-align .feature-list li {
