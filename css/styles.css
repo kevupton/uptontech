@@ -324,7 +324,7 @@ header .full-screen {
   color: #c8c8c8;
 }
 
-header .profile-pic {
+.profile-pic {
     -webkit-border-radius:20px;
     -moz-border-radius:20px;
     border-radius:20px;
